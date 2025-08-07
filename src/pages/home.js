@@ -1,7 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 
-function Home() {
+function home() {
   return (
     <div style={{
       display: 'flex',
@@ -36,4 +36,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default home;
