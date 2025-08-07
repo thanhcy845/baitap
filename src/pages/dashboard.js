@@ -1,8 +1,12 @@
-// src/pages/Dashboard.js
 import React from 'react';
 
 function Dashboard() {
-  return <h1>Dashboard: This is a private route</h1>;
+  return (
+    <div style={{ padding: '2rem', textAlign: 'center' }}>
+      <h1>Bảng Điều Khiển (Dashboard)</h1>
+      <p>Đây là khu vực dành cho người dùng đã đăng nhập.</p>
+    </div>
+  );
 }
 
-export default Dashboard;
+export default dashboard;
