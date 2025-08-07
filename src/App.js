@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 
 // Cập nhật các import
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Home from './pages/home';
 import About from './pages/About';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
